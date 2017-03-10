@@ -1,0 +1,18 @@
+/*background color change*/
+body {
+    background: grey; 
+    transition: background .5s;
+    color: #fff;
+}
+
+h3{
+	margin-top: 50px;
+}
+
+
+/*javascript prompt*/
+button{
+	display: block;
+	position: relative;
+	text-align: center;
+}

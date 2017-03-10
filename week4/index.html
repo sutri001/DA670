@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+	<html>
+		<head>
+			<title>Web Development Week 4</title>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<script src="script.js"></script>
+			
+		</head>
+		<body>
+		
+		<!--Javascript Prompt-->
+			<h2>Click the button to begin.</h2>
+			<button onclick="myFunction()">Click Here</button>
+			<p id="demo"></p>
+			
+		<!--Array-->
+			<h3>Background Colors</h3>
+
+			<p id="test"></p>
+
+		<script>
+			var color, text, fLen, i;
+
+			color = ["Grey", "Green", "Orange", "Blue", "Purple", "Red"];
+			fLen = color.length;
+			text = "<ul>";
+			
+			for (i = 0; i < fLen; i++) {
+				text += "<li>" + color[i] + "</li>";
+			}
+			text += "</ul>";
+			
+			document.getElementById("test").innerHTML = text;
+		</script>
+
+			
+		</body>
+	</html>
