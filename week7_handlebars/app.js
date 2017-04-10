@@ -15,29 +15,29 @@ app.get("/",function(req,res){
 	// An object to hold the data that will get fed into the template.
 	// Note! the property names here must match the variable names in handlebars
 	var data = {
-		 pageTitle: "Spectacular Place is full of cats",
-		 pageContent: "Cat ipsum dolor sit amet, cat snacks or sleep on keyboard but nap all day who's the baby."
+		 pageTitle: "Candy from all over the world!",
+		 pageContent: "Candy Palace is the place to be! We have over 100 brands of cany from all over the world!"
 	};
 	// Render the template using this data
 	res.render("page", data);
 });
 
-app.get("/work",function(req,res){
+app.get("/menu",function(req,res){
 	// set up the content
 	var data = {
-		 pageTitle: "Our Work",
-		 pageContent: "We work with cats all day. Our clients love us!"
+		 body: "U.S. Brand, Europe Brands",
+		 
 	};
 	// render the template
-	res.render("page", data);
+	res.render("main", data);
 });
 
-app.get("/play",function(req,res){
+app.get("/hours",function(req,res){
 	var data = {
-		 pageTitle: "We Play Hard",
-		 pageContent: "Chase silly fish toys all over the house."
+		 body: "Monday - Friday: 10AM to 6PM and Saturday- Sunday: 11AM to 7PM",
+		 
 	};
-	res.render("page",data);
+	res.render("main",data);
 });
 
 

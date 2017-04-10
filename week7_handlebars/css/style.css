@@ -1,58 +1,40 @@
-html,body{
-	margin: 0;
-}
 
 header {
-	background-color: #3498DB;
-	border-top: 1px solid #3498DB;
+	background-color: #000;
+	border-top: 5px solid #fff;
 }
 
 header h1{
-	font-family: "Lobster";
-	padding-left: 2rem;
-	font-size: 300%;
-	color: #ECF0F1;
-	text-shadow: .07em .07em #2C3E50;
+	padding: 5%;
+	font-size: 20px;
+	color: #fff;
+	text-shadow: 2% 2% #333;
 }
 nav {
-	background-color: #2C3E50;
+	background-color: #333;
 }
 nav ul {	
-	padding: .5em 2rem;
-	font-family: "Roboto";
+	padding: 5%;
 }
 
 nav li{
 	display: inline;
-	padding:0;
-	padding-right:1em;
-	text-transform: uppercase;
+	padding-left: 5%;
 }
 
 nav a{	 
-	color: #ECF0F1; 
-	text-decoration: none;
+	color: #fff; 
 }
 
 nav a:hover{
-	color: #E74C3C;
+	color: #4286f4;
 }
 
 .content{
-	padding: .5em 2rem;
-	margin-bottom: 2em;
+	padding: 5%;
+	margin: 5%;
 }
 
 h1,h2,h3,h4{
-	font-family: "Lobster";
-	color: #E74C3C;
-}
-footer{
-	position:absolute;
-	bottom:0;
-	padding: .5em 2rem;
-	background-color: #2C3E50;
-	width: 100%;
-	font-family: "Roboto";
-	color: #ECF0F1;
+	color: #41d9f4;
 }
