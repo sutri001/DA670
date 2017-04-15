@@ -42,5 +42,5 @@ app.get("/hours",function(req,res){
 
 
 app.listen(1000, function(){
-	console.log( 'Express started on http://localhost:3000; press Ctrl-C to terminate.' );
+	console.log( 'Express started on http://localhost:1000; press Ctrl-C to terminate.' );
 });
