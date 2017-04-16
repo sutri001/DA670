@@ -1,32 +1,25 @@
-html,body{
-	padding: 0;
-	margin: 0;
-}
 body{
-	background-color: #04BFBF;
+	background-color: #fff;
 }
 header{
-	font-family: sans-serif;
-	border-bottom: 1px solid rgba(88,143,39,1);
-	border-top: 1px solid rgba(169,207,84,1);
-	background: linear-gradient(to bottom, rgba(169,207,84,1) 0%, rgba(88,143,39,1) 100%);
-	margin: 0; 
+	font-family: serif;
+	border: 2px solid rgba(19,25,35,.5);
+	margin: 0, 5; 
 }
 
 header h1{
-	padding: 1rem;
+	padding: 5%;
 }
 header h1 a{
-	text-decoration: none;
-	color: #000;
-	font-weight: normal;
+	color: #022256;
+	font-weight: bold;
 }
 
 main{
-	padding:1rem;
-	background-color: #fff;	
+	padding: 5%;
+	background-color: #ccd6e8;	
 }
 
 a{
-	color: #588F27;
+	color: #4286f4;
 }
