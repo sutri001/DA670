@@ -1,13 +1,24 @@
+html,body{
+	padding: 0;
+	margin: 0;
+}
 body{
+<<<<<<< HEAD:week8_data/public/css/style.css
 	background-color: #f6f9d9;
+=======
+	background-color: #04BFBF;
+>>>>>>> parent of bb9a296... new:week8/css/style.css
 }
 header{
-	font-family: serif;
-	border: 2px solid rgba(19,25,35,.5);
-	margin: 0, 5; 
+	font-family: sans-serif;
+	border-bottom: 1px solid rgba(88,143,39,1);
+	border-top: 1px solid rgba(169,207,84,1);
+	background: linear-gradient(to bottom, rgba(169,207,84,1) 0%, rgba(88,143,39,1) 100%);
+	margin: 0; 
 }
 
 header h1{
+<<<<<<< HEAD:week8_data/public/css/style.css
 	padding: 5%;
 	text-align: center;
 }
@@ -33,3 +44,21 @@ main{
 a{
 	color: #4286f4;
 }
+=======
+	padding: 1rem;
+}
+header h1 a{
+	text-decoration: none;
+	color: #000;
+	font-weight: normal;
+}
+
+main{
+	padding:1rem;
+	background-color: #fff;	
+}
+
+a{
+	color: #588F27;
+}
+>>>>>>> parent of bb9a296... new:week8/css/style.css
