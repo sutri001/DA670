@@ -43,6 +43,7 @@ app.get("/hours",function(req,res){
 
 <<<<<<< HEAD
 app.listen(1000, function(){
+<<<<<<< HEAD
 	console.log( 'Express started on http://localhost:1000; press Ctrl-C to terminate.' );
 });
 =======
@@ -50,3 +51,7 @@ app.listen(3000, function(){
 	console.log( 'Express started on http://localhost:3000; press Ctrl-C to terminate.' );
 });
 >>>>>>> origin/master
+=======
+	console.log( 'Express started on http://localhost:3000; press Ctrl-C to terminate.' );
+});
+>>>>>>> parent of 565e2d4... local host
