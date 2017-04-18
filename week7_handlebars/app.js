@@ -15,43 +15,46 @@ app.get("/",function(req,res){
 	// An object to hold the data that will get fed into the template.
 	// Note! the property names here must match the variable names in handlebars
 	var data = {
-		 pageTitle: "Spectacular Place is full of cats",
-		 pageContent: "Cat ipsum dolor sit amet, cat snacks or sleep on keyboard but nap all day who's the baby."
+		 pageTitle: "Candy from all over the world!",
+		 pageContent: "Candy Palace is the place to be! We have over 100 brands of cany from all over the world!"
 	};
 	// Render the template using this data
 	res.render("page", data);
 });
 
-app.get("/work",function(req,res){
+app.get("/menu",function(req,res){
 	// set up the content
 	var data = {
-		 pageTitle: "Our Work",
-		 pageContent: "We work with cats all day. Our clients love us!"
+		 pageTitle: "Brands of Candy",
+		 pageContent: "Brand1, Brand2, Brand3",
+		 
 	};
 	// render the template
 	res.render("page", data);
 });
 
-app.get("/play",function(req,res){
+app.get("/hours",function(req,res){
 	var data = {
-		 pageTitle: "We Play Hard",
-		 pageContent: "Chase silly fish toys all over the house."
+		 pageTitle: "Come Visit Us!", 
+		 pageContent: "Monday - Friday: 10AM to 6PM and Saturday- Sunday: 11AM to 7PM",
 	};
 	res.render("page",data);
 });
 
 
-<<<<<<< HEAD
-app.listen(1000, function(){
-<<<<<<< HEAD
-	console.log( 'Express started on http://localhost:1000; press Ctrl-C to terminate.' );
+// 404 Not found catch-all handler 
+app.use(function(req, res, next){
+	res.status(404);
+	res.render('404');
 });
-=======
-app.listen(3000, function(){
-	console.log( 'Express started on http://localhost:3000; press Ctrl-C to terminate.' );
+
+// 500 server error handler 
+app.use(function(err, req, res, next){
+	console.error(err.stack);
+	res.status(500);
+	res.render('500');
 });
->>>>>>> origin/master
-=======
-	console.log( 'Express started on http://localhost:3000; press Ctrl-C to terminate.' );
+
+app.listen(2000, function(){
+	console.log( 'Express started on http://localhost:2000; press Ctrl-C to terminate.' );
 });
->>>>>>> parent of 565e2d4... local host

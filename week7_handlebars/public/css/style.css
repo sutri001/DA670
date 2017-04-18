@@ -1,0 +1,53 @@
+
+header {
+	background-color: purple;
+	border-top: 5px solid #fff;
+}
+
+header h1{
+	padding: 1%;
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+}
+nav {
+	background-color: blue;
+}
+nav ul {	
+	padding-right: 2.5%;
+	text-align: center;
+}
+
+nav li{
+	display: inline;
+	padding-left: 5px;
+}
+
+nav a{	 
+	color: #fff; 
+}
+
+nav a:hover{
+	color: #4286f4;
+}
+
+.content{
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+}
+
+h1,h2,h3,h4{
+	color: #41d9f4;
+}
+
+footer{
+	bottom: 0;
+	position: absolute;
+	background-color: purple;
+	width: 100%;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+}
