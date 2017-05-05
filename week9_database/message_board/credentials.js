@@ -1,4 +1,3 @@
 module.exports = {
-    mongo: 'mongodb://firstdb:password@ds033116.mongolab.com:33116/firstdb'
+    mongo: 'mongodb://sutri001:password@ds047305.mlab.com:47305/firstdb'
 };
-
