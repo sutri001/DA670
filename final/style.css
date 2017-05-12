@@ -1,0 +1,92 @@
+body {
+  margin:0;
+  padding:0;
+  font-family: "Open Sans";
+}
+
+#navigation {
+  height: 50px;
+  background-color: #FFF7CF;
+  text-align: center;
+}
+
+.menu-button {
+  display: inline-block;
+  color: #777;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-top: 1%;
+}
+
+/*javascript prompt*/
+button {
+  display: center;
+  position: relative;
+  text-align: center;
+}
+
+header {
+  position: relative;
+  color: #333;
+  text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 10% 0 15% 0;
+  margin-bottom: -5%;
+  background-image: url("media/autumn_leaves.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+	}
+
+		header h1 {
+			font-weight: 400;
+			font-size: 75px;
+			margin: 15% -2% 0 -2%;
+				
+		}
+
+
+.post {
+  background-color: white;
+  width: 1000px;
+  border: solid 1px #ddd;
+  padding: 30px 30px 10px 30px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+	.post img {
+ 		 width: 100%;
+	}
+
+	.post h2 {
+		margin-top: 10px;
+		color: #000;
+		font-size: 24px;
+	}
+
+	.post p {
+ 		margin-top: 5px;
+  		color: #888;
+  		font-size: 18px;
+	}
+
+div {
+  width: 70px;
+  height: 70px;
+  background: rgba(247,255,170,1.00);
+  transition: width 2s;
+  -webkit-transition: width 2s; /* Safari 3.1 to 6.0 */
+  font-size: 22px;
+  text-align: center;
+}
+
+	div:hover {
+    width: 300px;
+	}
+
+footer p {
+  text-align: center; 
+  color: #fff;
+  font-size: 14px;
+  margin: 5% 0 0 0;
+}
